@@ -1,0 +1,11 @@
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatAppication\bin\Debug\netcoreapp2.2\P2PChatAppication.deps.json
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatAppication\bin\Debug\netcoreapp2.2\P2PChatAppication.runtimeconfig.json
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatAppication\bin\Debug\netcoreapp2.2\P2PChatAppication.runtimeconfig.dev.json
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatAppication\bin\Debug\netcoreapp2.2\P2PChatAppication.dll
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatAppication\bin\Debug\netcoreapp2.2\P2PChatAppication.pdb
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatAppication\obj\Debug\netcoreapp2.2\P2PChatAppication.csproj.CoreCompileInputs.cache
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatAppication\obj\Debug\netcoreapp2.2\P2PChatAppication.AssemblyInfoInputs.cache
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatAppication\obj\Debug\netcoreapp2.2\P2PChatAppication.AssemblyInfo.cs
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatAppication\obj\Debug\netcoreapp2.2\P2PChatAppication.dll
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatAppication\obj\Debug\netcoreapp2.2\P2PChatAppication.pdb
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatAppication\obj\Debug\netcoreapp2.2\P2PChatAppication.csprojAssemblyReference.cache

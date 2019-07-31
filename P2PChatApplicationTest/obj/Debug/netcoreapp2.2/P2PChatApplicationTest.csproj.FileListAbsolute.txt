@@ -1,0 +1,17 @@
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatApplicationTest\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatApplicationTest\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatApplicationTest\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatApplicationTest\bin\Debug\netcoreapp2.2\P2PChatApplicationTest.deps.json
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatApplicationTest\bin\Debug\netcoreapp2.2\P2PChatApplicationTest.runtimeconfig.json
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatApplicationTest\bin\Debug\netcoreapp2.2\P2PChatApplicationTest.runtimeconfig.dev.json
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatApplicationTest\bin\Debug\netcoreapp2.2\P2PChatApplicationTest.dll
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatApplicationTest\bin\Debug\netcoreapp2.2\P2PChatApplicationTest.pdb
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatApplicationTest\bin\Debug\netcoreapp2.2\P2PChatAppication.dll
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatApplicationTest\bin\Debug\netcoreapp2.2\P2PChatAppication.pdb
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatApplicationTest\obj\Debug\netcoreapp2.2\P2PChatApplicationTest.csprojAssemblyReference.cache
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatApplicationTest\obj\Debug\netcoreapp2.2\P2PChatApplicationTest.csproj.CoreCompileInputs.cache
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatApplicationTest\obj\Debug\netcoreapp2.2\P2PChatApplicationTest.AssemblyInfoInputs.cache
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatApplicationTest\obj\Debug\netcoreapp2.2\P2PChatApplicationTest.AssemblyInfo.cs
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatApplicationTest\obj\Debug\netcoreapp2.2\P2PChatApplicationTest.csproj.CopyComplete
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatApplicationTest\obj\Debug\netcoreapp2.2\P2PChatApplicationTest.dll
+C:\Users\sramdurg\source\repos\P2PChatAppication\P2PChatApplicationTest\obj\Debug\netcoreapp2.2\P2PChatApplicationTest.pdb
