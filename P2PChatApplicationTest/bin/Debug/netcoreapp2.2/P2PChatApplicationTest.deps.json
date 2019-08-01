@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "93b5d6fa096726aa90619b72e309439934091475"
+    "signature": "095d30b9562eb447430f2b02e229904d276a0732"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,11 +10,23 @@
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "15.9.0",
           "P2PChatAppication": "1.0.0",
+          "FluentAssertions": "5.7.0",
           "xunit": "2.4.0",
           "xunit.runner.visualstudio": "2.4.0"
         },
         "runtime": {
           "P2PChatApplicationTest.dll": {}
+        }
+      },
+      "FluentAssertions/5.7.0": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.4.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/FluentAssertions.dll": {
+            "assemblyVersion": "5.7.0.0",
+            "fileVersion": "5.7.0.0"
+          }
         }
       },
       "Microsoft.CodeCoverage/15.9.0": {
@@ -494,6 +506,17 @@
           "System.Threading": "4.0.11"
         }
       },
+      "System.Configuration.ConfigurationManager/4.4.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
       "System.Diagnostics.Debug/4.0.11": {
         "dependencies": {
           "System.Runtime": "4.1.0"
@@ -844,6 +867,22 @@
           "System.Runtime": "4.1.0"
         }
       },
+      "System.Security.Cryptography.ProtectedData/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
       "System.Text.Encoding/4.0.11": {
         "dependencies": {
           "System.Runtime": "4.1.0"
@@ -1067,6 +1106,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "FluentAssertions/5.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UBSa5xvpHi8dhrSAZ8q0VGIly6SEHqIP4SfgmvrVvi7YQUZEE+c9gSTPalANw5x3CwNLuafY9SrCM23GiyK9Qg==",
+      "path": "fluentassertions/5.7.0",
+      "hashPath": "fluentassertions.5.7.0.nupkg.sha512"
+    },
     "Microsoft.CodeCoverage/15.9.0": {
       "type": "package",
       "serviceable": true,
@@ -1213,6 +1259,13 @@
       "sha512": "sha512-MnDAlaeJZy9pdB5ZdOlwdxfpI+LJQ6e0hmH7d2+y2LkiD8DRJynyDYl4Xxf3fWFm7SbEwBZh4elcfzONQLOoQw==",
       "path": "system.componentmodel.typeconverter/4.1.0",
       "hashPath": "system.componentmodel.typeconverter.4.1.0.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gWwQv/Ug1qWJmHCmN17nAbxJYmQBM/E94QxKLksvUiiKB1Ld3Sc/eK1lgmbSjDFxkQhVuayI/cGFZhpBSodLrg==",
+      "path": "system.configuration.configurationmanager/4.4.0",
+      "hashPath": "system.configuration.configurationmanager.4.4.0.nupkg.sha512"
     },
     "System.Diagnostics.Debug/4.0.11": {
       "type": "package",
@@ -1444,6 +1497,13 @@
       "sha512": "sha512-HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg==",
       "path": "system.runtime.serialization.primitives/4.1.1",
       "hashPath": "system.runtime.serialization.primitives.4.1.1.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
+      "path": "system.security.cryptography.protecteddata/4.4.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
     },
     "System.Text.Encoding/4.0.11": {
       "type": "package",

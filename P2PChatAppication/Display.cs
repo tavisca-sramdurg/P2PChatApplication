@@ -4,7 +4,13 @@ using System.Text;
 
 namespace P2PChatAppication
 {
-    class Display
+    public class Display
     {
+        public static bool DisplayMessage(string friendsName,string friendsMessage)
+        {
+            Console.WriteLine("{0} : {1}".PadLeft(150), friendsName, friendsMessage);
+
+            return true;
+        }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using P2PChatAppication;
 using Xunit;
+using FluentAssertions;
 
 namespace P2PChatApplicationTest
 {
@@ -14,9 +15,8 @@ namespace P2PChatApplicationTest
             string[] splittedAddress = new string[3] { "amit", "192.168.43.146", "22222" };
 
             //Act
-            string[] receivedAddress = AddressParser.ParseAddress(address);
-            //Assert
-            Assert.Equal(splittedAddress, receivedAddress);
+            string[] receivedAddress = NetworkHostAddress.ParseAddress(address);
+            receivedAddress.Should().Equal(splittedAddress);
         }
     }
 }

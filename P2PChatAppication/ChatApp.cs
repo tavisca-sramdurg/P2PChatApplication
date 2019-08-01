@@ -25,24 +25,24 @@ namespace P2PChatAppication
         {
             ipHost = Dns.GetHostEntry(Dns.GetHostName());
             ipAddress = ipHost.AddressList[1];
-        }
+            Console.WriteLine("Your Ip Address : " + ipAddress);
 
-        public void StartApp()
-        {
-            Console.WriteLine("Your Ip Address : " + ipAddress);     
-            
-            string[] yourDetails = YourDetails.GetYourDetails();
+            string[] yourDetails = UserDetails.GetYourDetails();
             myName = yourDetails[0];
             myPortNumber = int.Parse(yourDetails[1]);
 
-            string[] friendsDetails = FriendDetails.GetFriendDetails();
+            string[] friendsDetails = UserDetails.GetFriendDetails();
             friendsName = friendsDetails[0];
             friendsIPAddress = friendsDetails[1];
             friendsPortNumber = int.Parse(friendsDetails[2]);
 
-            Thread senderThread = new Thread(new ThreadStart(() => NetworkHostSender.Send(friendsIPAddress, friendsPortNumber)));
+        }
+
+        public void StartApp()
+        {
+            Thread senderThread = new Thread(new ThreadStart( () =>  NetworkHostClient.Connect(friendsIPAddress, friendsPortNumber)));
             senderThread.Start();
-            Thread listenerThread = new Thread(new ThreadStart(() => NetworkHostListener.Listen(ipAddress, myPortNumber, friendsName)));
+            Thread listenerThread = new Thread(new ThreadStart(() => NetworkHostListener.AcceptConnection(ipAddress, myPortNumber, friendsName)));
             listenerThread.Start();
         }
         
