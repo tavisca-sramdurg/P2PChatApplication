@@ -1,7 +1,7 @@
 # P2PChatApplication
 Implementation of a serverless P2P chat application
 
-How to run this app on your local machine?
+How to run this app on your Visual Studio IDE?
 Steps:
 1) Start two instances of the project by right clicking on the project name "P2PChatAppication" >> Debug >> Start new instance.
 2) Enter your name 
