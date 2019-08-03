@@ -24,7 +24,7 @@ namespace P2PChatAppication
                         flag = false;
                         Console.WriteLine("Connected!");
                         Console.WriteLine("----------------------------------------------------------------");
-                        Console.WriteLine("BEGIN CHAT");
+                        Console.WriteLine("BEGIN CHAT (enter 'quit' to exit the chat)");
                         Console.WriteLine("----------------------------------------------------------------");
                     }
                     catch

@@ -28,7 +28,7 @@ namespace P2PChatAppication
 
         public static string[] GetFriendDetails()
         {
-            Console.Write("Friend's Address :");
+            Console.Write("Friend's Address (Format: friendsName@<IPv4_Address>:<Port_Number>: ");
             friendsAddress = Console.ReadLine();
 
             string[] friendsDetails = NetworkHostAddress.ParseAddress(friendsAddress);
